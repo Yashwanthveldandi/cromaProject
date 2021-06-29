@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [cromaProject]">
+  <parameter name="url" value="https://www.croma.com/"/>
+  <parameter name="Browser" value="chrome"/>
+  <listeners>
+    <listener class-name="com.croma.utilities.Reporting"/>
+  </listeners>
+  <test name="multi Broswer testing with edge(failed)">
+    <parameter name="Browser" value="edge"/>
+    <classes>
+      <class name="com.croma.tests.VideoCall">
+        <methods>
+          <include name="VdCall"/>
+          <include name="teardown"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.croma.tests.VideoCall -->
+    </classes>
+  </test> <!-- multi Broswer testing with edge(failed) -->
+</suite> <!-- Failed suite [cromaProject] -->

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[the video call is not working try in chrome Browser]]>
+    </line>
+    <line>
+      <![CDATA[PLEASE SELECT A CATEGORY FOR DEMO]]>
+    </line>
+  </reporter-output>
+  <suite name="cromaProject" duration-ms="27708" started-at="2021-06-25T05:21:06Z" finished-at="2021-06-25T05:21:33Z">
+    <groups>
+    </groups>
+    <test name="multi Broswer testing with edge" duration-ms="14436" started-at="2021-06-25T05:21:06Z" finished-at="2021-06-25T05:21:20Z">
+      <class name="com.croma.tests.VideoCall">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.croma.tests.VideoCall@7cd62f43]" name="setUp" is-config="true" duration-ms="12769" started-at="2021-06-25T10:51:06Z" finished-at="2021-06-25T10:51:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.croma.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VdCall()[pri:0, instance:com.croma.tests.VideoCall@7cd62f43]" name="VdCall" duration-ms="1267" started-at="2021-06-25T10:51:19Z" finished-at="2021-06-25T10:51:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[the video call is not working try in chrome Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VdCall -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.croma.tests.VideoCall@7cd62f43]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-25T10:51:20Z" finished-at="2021-06-25T10:51:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.croma.tests.VideoCall -->
+    </test> <!-- multi Broswer testing with edge -->
+    <test name="multi Broswer testing with chrome" duration-ms="12408" started-at="2021-06-25T05:21:21Z" finished-at="2021-06-25T05:21:33Z">
+      <class name="com.croma.tests.VideoCall">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.croma.tests.VideoCall@598067a5]" name="setUp" is-config="true" duration-ms="11819" started-at="2021-06-25T10:51:21Z" finished-at="2021-06-25T10:51:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.croma.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VdCall()[pri:0, instance:com.croma.tests.VideoCall@598067a5]" name="VdCall" duration-ms="572" started-at="2021-06-25T10:51:33Z" finished-at="2021-06-25T10:51:33Z">
+          <reporter-output>
+            <line>
+              <![CDATA[PLEASE SELECT A CATEGORY FOR DEMO]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VdCall -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.croma.tests.VideoCall@598067a5]" name="teardown" is-config="true" duration-ms="0" started-at="2021-06-25T10:51:33Z" finished-at="2021-06-25T10:51:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.croma.tests.VideoCall -->
+    </test> <!-- multi Broswer testing with chrome -->
+  </suite> <!-- cromaProject -->
+</testng-results>
